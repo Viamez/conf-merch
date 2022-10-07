@@ -1,9 +1,7 @@
 import React from 'react';
-
+import '../styles/components/app.css';
 const App = () => {
-  return (
-    <div>Hola mundo</div>
-  )
-}
+  return <h1 className="title">Hola mundo</h1>;
+};
 
-export  {App}
+export { App };
